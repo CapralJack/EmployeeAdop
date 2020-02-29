@@ -47,7 +47,7 @@
   "Stayed": "Left",
   "RecordHasBeenCreated": "Record has been created",
   "NotEnoughMoney": "Not enough money",
-  "CRM_Title": "CRM by Vladilen",
+  "CRM_Title": "Employee concept",
   "Message_EmailRequired": "Email field is required",
   "Message_EmailValid": "Enter valid email",
   "Password": "Password",
@@ -74,7 +74,12 @@
   "whywe":"Why",
   "func_oport":"capabilities",
   "Menu_Impl": "Implementation",
-  "Implem1":"Process",
+  "Implem1":"Process of integration and implementation ",
+  "Implem2":"At the first stage, we study the tasks and requirements of the system, determine the necessary functionality. The features of each organization are taken into account.",
+  "Implem3":"Mobile applications are branded in the corporate identity of the customer, including colors, fonts, logo, menu background and other screens. For each project, separate screens can be developed at the request of the customer.",
+  "Implem4":"Adaptation and placement of content from the source materials of the customer. Publish applications to the Apple Store, Google Play, or customer’s corporate store. Three-level support, quick troubleshooting, updating to new versions of the service.",
+  
+
   "About1":"Our",
   "Hi1":"Mobile technology and Human Resource management",
   "Hi2":"adaptation",
@@ -83,23 +88,26 @@
   "Hi5":"Increases the efficiency of HR-processes through introduction the mobile technologies",
 
   "Function": "Dynamic",
-  "Function_Title": "Solution for different areas of talent management lorevrfgmjwafjwemferfgt hy5ruh65uyk igotueyopejk kortjhg; joi;wmjexodil",
+  "Function_Title": "Solution for different areas of talent management",
   "Innovation": "Innovation",
   "Innovation_Title": "Pioneers a whole new approach to employee adaptation and training",
   "Flexibility": "Flexibility",
   "Flexibility_Title": "It’s easier to make an individual decision for the client in comparison with large vendors",
   
-  "FunctionPage0": "For each project, a separate application is created with the required functionality and compliance with the company's brand book. Depending on the tasks, integration with other client systems can be performed.",
+  "FunctionPage0": "For each project, our team create a completely new application with the required functionality. Depending on the tasks, integration with other client systems can be performed. Application complies with the company's brand book and style.",
   
   "FunctionPage1": "Adoptation",
-  "FunctionPage2": "Dynamic",
-  "FunctionPage3": "Dynamic",
-  "FunctionPage4": "Dynamic",
-  "FunctionPage5": "Dynamic",
-  "FunctionPage6": "Dynamic",
-  "FunctionPage7": "Dynamic",
-  "FunctionPage8": "Dynamic",
-  "FunctionPage9": "Dynamic"
+  "FunctionPage2": "Mobile technology can increase performance HR-Processes",
+  "FunctionPage3": "Training",
+  "FunctionPage4": "Adaptation for smartphones, it is possible to study offline courses",
+  "FunctionPage5": "Testing",
+  "FunctionPage6": "Getting feedback, competency assessment and conducting surveys",
+  "FunctionPage7": "Motivation",
+  "FunctionPage8": "Employee motivation program, accrual and display of points and rating",
+  "FunctionPage9": "Knowledge base",
+  "FunctionPage10": "All necessary information in a convenient place",
+  "FunctionPage11": "Knowledge base"
+
 
 
   

@@ -1,6 +1,6 @@
 <template>
 
-  <b-container>
+  <b-container style="max-width: 1650px">
         
      <div style="margin-top: 40px; margin-bottom: 40px; text-align: left ">
         <h1><span style="color: #e16262;">Employee Concept </span>{{'func_oport'|localize}} </h1>
@@ -11,37 +11,49 @@
 
         <b-row align-v="center">
                    <!-- 1 -->
-          <b-col class="md-4" style=" text-align: left;  " >
+          <b-col class="md-3" style=" min-height:550px " >
                 <h1>{{"FunctionPage1"|localize}}</h1>
-                 <img width="270px" src="../imgs/func1.png">
+                 <img width="270px" src="../imgs/1DayC.png">
 
                  <b-card  >
-                   <p>Повышаем эффективность HR-процессов<br> за счет внедрения мобильных технологий</p>
+                   <p>{{"FunctionPage2"|localize}}</p>
                 </b-card>
           </b-col>
             <!-- 2 -->
-          <b-col  class="md-4" style=" text-align: left;  " >
-                <h1>Адаптация</h1>
-                 <img width="270px" src="../imgs/func1.png">
+          <b-col  class="md-3" style=" min-height:550px " >
+                <h1>{{"FunctionPage3"|localize}}</h1>
+                 <img width="270px" src="../imgs/TrainingC.png">
 
                  <b-card>
-                 
-                  
-                   <p>Повышаем эффективность HR-процессов<br> за счет внедрения мобильных технологий</p>
-                </b-card>
-          </b-col>
-          <!-- 3 -->
-          <b-col class="md-4" style=" text-align: left;  " >
-                <h1>Адаптация</h1>
-                 <img width="270px" src="../imgs/func1.png">
-
-                 <b-card >
-                 
-                  
-                   <p>Повышаем эффективность HR-процессов<br> за счет внедрения мобильных технологий</p>
+                   <p>{{"FunctionPage4"|localize}}</p>
                 </b-card>
           </b-col>
           
+          <!-- 3 -->
+           <b-col class="md-3" style=" min-height:550px  " >
+                <h1>{{"FunctionPage5"|localize}}</h1>
+                 <img width="270px" src="../imgs/TestC.png">
+                 <b-card >
+                   <p>{{"FunctionPage6"|localize}}</p>
+                </b-card>
+          </b-col>
+          <!-- 4 -->
+          <b-col class="md-3" style=" min-height:550px  " >
+                <h1>{{"FunctionPage9"|localize}}</h1>
+                 <img width="270px" src="../imgs/PrintDocuC.png">
+                 <b-card >
+                   <p>{{"FunctionPage10"|localize}}</p>
+                </b-card>
+          </b-col>
+        <!-- 5 -->
+          <b-col class="md-3" style=" min-height:550px  " >
+                <h1>{{"FunctionPage7"|localize}}</h1>
+                 <img width="270px" src="../imgs/Rating.png">
+                 <b-card >
+                   <p>{{"FunctionPage8"|localize}}</p>
+                </b-card>
+          </b-col>
+
           
 
           

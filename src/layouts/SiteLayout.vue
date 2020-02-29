@@ -9,12 +9,12 @@
        <!-- header__logo -->
           <b-navbar-brand tag="div"  href="#">
             
-            <img width="230px" src="../imgs/ResVersion2.png">
+            <img width="230px" style="padding-top:8px " src="../imgs/EC_logo.png">
           </b-navbar-brand>
 
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-          <b-collapse id="nav-collapse" style="background:#e16262!important;" is-nav>
+          <b-collapse id="nav-collapse" style="background:#e16262!important; z-index: 1;" is-nav>
             <!-- header__nav -->
             <b-navbar-nav class="ml-auto">
             <!-- <div class="switch" style="margin-top: 30px">

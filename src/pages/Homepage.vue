@@ -1,7 +1,7 @@
 <template>
   
     <div class="hello">
-      <div class="switch" style="float:left">
+      <div class="switch" style="float:left; padding-top:20px">
               <label style="color:#fff; margin-left:10px">
                 English
                 <input type="checkbox" v-model="isRuLocale" v-on:click="switchLang()">
@@ -12,12 +12,11 @@
  <!-- class="block-hi" -->
       <div class="block-hi">
            
-           
-        
+                  
         <b-container>
-        <b-row align-v="left">
+        <b-row align-v="left" style="margin-top: 60px" >
                    
-          <b-col class="md-6" style=" text-align: left; margin-top: 60px " >
+          <b-col class="md-6" style=" text-align: left; " >
                    
                 <h1>{{'Hi1'|localize}}</h1>
                   <ul>
@@ -46,12 +45,13 @@
 
       <b-container>
         <b-row align-v="center">
+          
           <!-- 1 -->
           <b-col
-          style="max-width: 40rem;min-height:373px"
+          style="max-width: 40rem;"
           class="md-3"
           >
-            <div class="why-element">
+            <div class="why-element" style="min-height:410px">
                 <div class="why-speed color-green">
                   <img  src="../imgs/icon_speed.png">
                 </div>
@@ -62,13 +62,13 @@
                 </div>
             </div>
          </b-col>
-         <!-- 2 -->
 
+         <!-- 2 -->
          <b-col
-          style="max-width: 40rem;min-height:373px"
+          style="max-width: 40rem;"
           class="md-3"
          >
-          <div class="why-element">
+          <div class="why-element" style="min-height:410px">
             <div class="why-speed color-red">
               <img style="width:50px; padding-top:0px;" src="../imgs/gear.png">
              </div>
@@ -79,12 +79,13 @@
             </div>
           </div>
           </b-col>
-
+          
+          <!-- 3 -->
           <b-col
-          style="max-width: 40rem; min-height:373px"
+          style="max-width: 40rem; "
           class="md-4"
           >
-          <div class="why-element">
+          <div class="why-element" style="min-height:410px">
             <div class="why-speed color-cyan-spec">
               <img   style="width:50px; padding-top:0px;" src="../imgs/flex.png">
             </div>
@@ -98,10 +99,10 @@
 
           <!-- 4 -->
           <b-col
-          style="max-width: 40rem; min-height:373px"
+          style="max-width: 40rem; "
           class="md-4"
          >
-          <div class="why-element">
+          <div class="why-element" style="min-height:410px">
             <div class="why-speed color-yellow-spec">
               <img style="width:45px; padding-top:10px;" src="../imgs/Racket.png">
             </div>
@@ -113,33 +114,18 @@
           </div>
           </b-col>
                 
-
-
-
-
-
-        
-
+       
         </b-row>
         
       </b-container>
-
-
-
-
-      
-
-
-
-      
-
-      <h1 class="singlepost">Posts</h1>
+    
+      <!-- <h1 class="singlepost">Posts</h1>
       <post 
         v-for="post in posts"
         v-bind:heading="post.title"
         v-bind:subtitle="post.subtitle"
         v-bind:key="post.id"
-      />
+      /> -->
           
     </div>
 
@@ -194,6 +180,7 @@ export default {
          debugger
          await this.updateInfo({
           // name: this.name,
+          
           locale: this.isRuLocale ? 'en-US' : 'ru-RU'
         })
       } catch (e) {}
